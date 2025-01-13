@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>554900080493-pfektn2nub38kak1ge407ob91pci40kg.apps.googleusercontent.com</string>
+	<string></string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.554900080493-pfektn2nub38kak1ge407ob91pci40kg</string>
+	<string></string>
 	<key>API_KEY</key>
-	<string>AIzaSyCI_Xntb9RXTj3g7GN_cwOBcLnI-3B1eEw</string>
+	<string>-3B1eEw</string>
 	<key>GCM_SENDER_ID</key>
-	<string>554900080493</string>
+	<string></string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
@@ -17,7 +17,7 @@
 	<key>PROJECT_ID</key>
 	<string>ecommercecourse-f2a3d</string>
 	<key>STORAGE_BUCKET</key>
-	<string>ecommercecourse-f2a3d.appspot.com</string>
+	<string>e</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:554900080493:ios:5fceb9701f66c250b3fc64</string>
+	<string></string>
 </dict>
 </plist>
