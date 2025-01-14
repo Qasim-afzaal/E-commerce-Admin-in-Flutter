@@ -43,7 +43,7 @@ class _EditProductPageState extends State<EditProductPage> {
     pricecontroller.text = widget.price.toString();
     return Scaffold(
       appBar: AppBar(
-        title: Text('Edit a Product'),
+        title: const Text('Edit a Product'),
       ),
       body: Form(
         key: _formKey,
@@ -52,9 +52,9 @@ class _EditProductPageState extends State<EditProductPage> {
           child: Column(
             children: [
               TextFormField(
-                key: ValueKey('name'),
+                key: const ValueKey('name'),
                 controller: namecontroller,
-                decoration: InputDecoration(hintText: 'Enter Product Name'),
+                decoration: const InputDecoration(hintText: 'Enter Product Name'),
                 onSaved: (newValue) {
                   setState(() {
                     name = newValue ?? '';
@@ -69,10 +69,10 @@ class _EditProductPageState extends State<EditProductPage> {
                 },
               ),
               TextFormField(
-                key: ValueKey('desc'),
+                key: const ValueKey('desc'),
                 controller: desccontroller,
                 decoration:
-                    InputDecoration(hintText: 'Enter Product Description'),
+                    const InputDecoration(hintText: 'Enter Product Description'),
                 onSaved: (newValue) {
                   setState(() {
                     description = newValue ?? '';
@@ -87,9 +87,9 @@ class _EditProductPageState extends State<EditProductPage> {
                 },
               ),
               TextFormField(
-                key: ValueKey('price'),
+                key: const ValueKey('price'),
                 controller: pricecontroller,
-                decoration: InputDecoration(hintText: 'Enter Product Price'),
+                decoration: const InputDecoration(hintText: 'Enter Product Price'),
                 onSaved: (newValue) {
                   setState(() {
                     price = double.parse(newValue ?? '0');
@@ -104,9 +104,9 @@ class _EditProductPageState extends State<EditProductPage> {
                 },
               ),
               TextFormField(
-                key: ValueKey('status'),
+                key: const ValueKey('status'),
                 controller: statuscontroller,
-                decoration: InputDecoration(hintText: 'Enter Product Status'),
+                decoration: const InputDecoration(hintText: 'Enter Product Status'),
                 onSaved: (newValue) {
                   setState(() {
                     status = newValue ?? '';
