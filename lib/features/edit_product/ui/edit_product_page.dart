@@ -1,7 +1,5 @@
 import 'package:ecommerce_admin/features/edit_product/bloc/edit_product_bloc.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 
 class EditProductPage extends StatefulWidget {
   final String name;
