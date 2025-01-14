@@ -1,4 +1,4 @@
-import 'package:ecommerce_admin/app.dart';
+
 import 'package:ecommerce_admin/design/theme.dart';
 import 'package:ecommerce_admin/features/dashboard/dashboard.dart';
 import 'package:firebase_core/firebase_core.dart';
